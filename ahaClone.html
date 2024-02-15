@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Young+Serif&display=swap" rel="stylesheet">
+
+    
+    <style>
+        *{
+            margin: 0px;
+            /* padding: 0; */
+            font-family: sans-serif;
+            
+        }
+        body{
+            background-color: black;
+            background-size: cover;
+        }
+        .bar{
+            width: 100%;
+            height: 75px;
+            background-color: rgb(30, 29, 29);
+        
+        }
+        #logo{
+            width: 58px;
+            height: 58px;
+            padding-left: 25px;
+            padding-top: 8px;
+        }
+        .bar ul{
+            text-align:center;
+            display: inline-flex;
+            position: relative;
+            bottom: 25px;
+
+        }
+        .bar ul li{
+            list-style-type: none;
+            padding: 20px;
+            color:rgb(223, 219, 219);
+            font-family: sans-serif;
+            font-size: 14px;
+        }
+        i{
+            position: relative;
+            left: 530px;
+        
+
+        }
+        #lang{
+            width: 25px;
+            height: 25px;
+            position: relative;
+            left: 515px;
+        }
+         #subs{
+            width: 150px;
+            height: 42px;
+            background-color: #ff5e00;
+            border-radius: 25px;
+            display: inline-flex;
+            position: relative;
+            left: 495px;
+            bottom: 12px;
+        } 
+        #s{
+            position: relative;
+            left: 27px;
+            top: 12px;
+           
+            
+        }
+        #profile{
+            width: 25px;
+            height: 25px;
+            position: relative; 
+            left:   480px;
+            bottom: 7px;
+          
+
+        }
+        #sign{
+            display: inline;
+            position: absolute;
+            top: 18px;
+            left: 1350px;
+            font-family: sans-serif;
+            
+        }
+
+
+        .bar ul li:hover{
+            cursor: pointer;
+            color:white;
+
+        }
+        
+        .scroll figure{
+            width: 500%;
+            position: relative;
+            left: 0px;
+            margin: 0px;
+            animation: 10s scroll infinite;
+        }
+        .scroll figure #pic{
+            width: 20%;
+            float: left;
+            }
+
+        .scroll{
+            overflow: hidden;
+        }
+
+        @keyframes scroll {
+            0%{
+                left:0%;
+            }
+            20%{
+                left: 0%;
+            }
+            25%{
+                left:-100%;
+            }
+            
+            45%{
+                left: -100%;
+            }
+            50%{
+                left: -200%;
+            }
+            70%{
+                left: -200%;
+            }
+            75%{
+                left:-300% ;
+            }
+            95%{
+                left:-300%;
+            }
+            100%{
+                left: -400%;
+                transition: 10s;
+            }
+        }
+
+        .d{
+            width: 200px;
+            height: 300px;
+            float: left;
+            transition: 2s;
+
+            
+        }
+        .d:hover{
+            transform: translateY(-20px);
+        }
+        .pics{
+            width: 170px;
+            height: 250px;  
+            border-radius: 20px;
+            float: left;
+        }
+        p{
+            color: white;
+            font-size: 17px;
+            /* text-align: center; */
+             /* float: left; */
+            position: relative;
+            left: 20px; 
+        }
+        h2{
+            color: white;
+        }
+        .a{
+            width: 170px;
+            height: 170px;
+            border-radius: 20px;
+        }
+        .b{
+            position: relative;
+            left: 15px;
+            bottom: 40px;
+            font-size: 18px;
+            font-weight: bold;
+            opacity: 0.9;
+            
+        }
+        .z{
+            width:170px;
+            height: 150px;
+            border-radius: 100%;
+            padding: 5px; 
+            float: left;
+            transition: 1s;
+}
+.z:hover{
+    transform: translateY(-20px);
+}
+#x{
+    width: 310px;
+    height: 200px;
+    padding: 5px;
+    transition: 1s;
+}
+#x:hover{
+    transform: translateY(-20px);
+}
+    </style>
+</head>
+<body>
+    <div class="bar">
+        <img src="https://www.aha.video/aha-logo.2a3e1475cd784cdc.svg" alt="aha-logo" id="logo">
+            <ul>
+                <li style="color: white;">Home</li>
+                <li>Movies</li>
+                <li>Shows</li>
+                <li>Watch for Free</li>
+                <li>My aha</li></a>
+
+                <li> <i class="fa-solid fa-magnifying-glass"></i></li>
+
+                <li><img src="  https://www.aha.video/language-icon.ef2c9348b4337663.svg" alt="" id="lang"></li>
+            
+                <li><div id="subs"><pre id="s">Subscribe Now</pre></div></li>
+          
+                <li><img src="https://www.aha.video/user-icon.a6b5f30360c95e43.svg" alt="" id="profile"></li>
+                
+                <li><pre id="sign">Sign In</pre></li>
+            
+            </ul>
+    </div>
+
+    <div class="scroll">
+        <figure>
+        <img src="https://image-resizer-cloud-api.akamaized.net/image/74826211-499A-43C7-954C-71130E8415D3/0-3x1.jpg?width=2310&updatedTime=2023-07-06T15:25:51Z&dt=Web" alt="" id="pic">
+
+        <img src="https://image-resizer-cloud-api.akamaized.net/image/A2329A85-A814-4405-BB4D-F89133B6A2E8/0-3x1.jpg?width=2310&updatedTime=2023-09-29T13:51:48Z&dt=Web" alt="" id="pic">
+
+        <img src="https://image-resizer-cloud-api.akamaized.net/image/C1A044E6-74DE-4074-B5EC-C1D6B8DC3D29/0-3x1.jpg?width=2310&updatedTime=2023-09-29T11:27:23Z&dt=Web" alt="" id="pic">
+
+        <img src="https://image-resizer-cloud-api.akamaized.net/image/56FEEDB4-250A-4718-B3BF-F04E204BEBE6/0-3x1.jpg?width=2310&updatedTime=2023-09-22T12:57:48Z&dt=Web" alt="" id="pic">
+
+        <img src="https://image-resizer-cloud-api.akamaized.net/image/D54C647B-A5E6-4A21-8252-0116BD3DB32F/0-3x1.jpg?width=2310&updatedTime=2023-09-29T13:53:40Z&dt=Web" alt="" id="pic">
+
+        <!-- <img src="https://image-resizer-cloud-api.akamaized.net/image/F3EF00A6-7BFD-4118-AB6C-AE782E2F7E5F/0-3x1.jpg?width=2310&updatedTime=2023-09-22T11:09:38Z&dt=Web" alt="">
+
+        <img src="https://image-resizer-cloud-api.akamaized.net/image/841C0A2D-DFA5-4DDF-B45A-BA04C037444A/0-3x1.jpg?width=2310&updatedTime=2023-09-29T13:52:19Z&dt=Web" alt=""> -->
+
+    </figure>
+    </div>
+    <br><br>
+    <!-- <a href="http://127.0.0.1:5500/aha.html"><img src="" alt=""></a> -->
+
+    <h2>New Releases</h2><br>
+    <div class="d"><img src="https://image-resizer-cloud-api.akamaized.net/image/4CBBD95A-537B-4B95-BD6E-7CE5568B32BF/0-2x3.jpg?width=305&updatedTime=2023-10-03T07:21:36Z&dt=Web" alt="" class="pics">
+    <p>papam paasivadu</p></div>
+    <div class="d"><img src="https://image-resizer-cloud-api.akamaized.net/image/02D03AE9-039A-446E-AB9B-1410489BED66/0-2x3.jpg?width=305&updatedTime=2023-09-29T13:50:16Z&dt=Web" alt="" class="pics">
+    <p>Family Drama</p></div>
+    <div class="d"><img src="https://image-resizer-cloud-api.akamaized.net/image/C1A044E6-74DE-4074-B5EC-C1D6B8DC3D29/0-2x3.jpg?width=305&updatedTime=2023-09-29T11:27:23Z&dt=Web" alt="" class="pics">
+    <p>Dochevaarevurara</p></div>
+    <div class="d"><img src="https://image-resizer-cloud-api.akamaized.net/image/2B91E192-78A4-4E8B-9967-AC9D161DBD03/0-2x3.jpg?width=305&updatedTime=2023-09-24T12:05:02Z&dt=Web" alt="" class="pics">
+    <p>Super Woman</p></div>
+    <div class="d"><img src="https://image-resizer-cloud-api.akamaized.net/image/A2329A85-A814-4405-BB4D-F89133B6A2E8/0-2x3.jpg?width=305&updatedTime=2023-09-29T13:51:48Z&dt=Web" alt="" class="pics">
+    <p>Nene Naa</p></div>
+    <div class="d"><img src="https://image-resizer-cloud-api.akamaized.net/image/D54C647B-A5E6-4A21-8252-0116BD3DB32F/0-2x3.jpg?width=305&updatedTime=2023-09-29T13:53:40Z&dt=Web" alt="" class="pics">
+    <p>Maya Petika</p></div>
+    <div class="d"><img src="https://image-resizer-cloud-api.akamaized.net/image/841C0A2D-DFA5-4DDF-B45A-BA04C037444A/0-2x3.jpg?width=305&updatedTime=2023-09-29T13:52:19Z&dt=Web" alt="" class="pics">
+    <p>Baby</p></div>
+    <div class="d"><img src="https://image-resizer-cloud-api.akamaized.net/image/E5C92F75-2BB4-464F-974A-6B26F25C38F2/0-2x3.jpg?width=305&updatedTime=2023-09-29T13:54:11Z&dt=Web" alt="" class="pics">
+    <p>Hidimbha</p></div>
+
+
+    <h2>Blockbusters on aha</h2><br>
+    <div class="d"><img src="https://image-resizer-cloud-api.akamaized.net/image/A94525AC-26FA-43FD-8B1D-58A8A8489DF8/0-2x3.jpg?width=305&updatedTime=2023-04-25T02:07:09Z&dt=Web" alt="" class="pics">
+    <p>Unstoppable</p></div>
+    <div class="d"><img src="https://image-resizer-cloud-api.akamaized.net/image/F65D2ED4-FA24-415A-9B86-A537814A1FC4/0-2x3.jpg?width=305&updatedTime=2023-08-28T14:06:59Z&dt=Web" alt="" class="pics">
+    <p>Fidaa</p></div>
+    <div class="d"><img src="https://image-resizer-cloud-api.akamaized.net/image/9D765C6E-DCB6-4D3F-BF5B-8F7FCEEB65CE/0-2x3.jpg?width=305&updatedTime=2023-09-01T12:58:27Z&dt=Web" alt="" class="pics">
+    <p>Sardar</p></div>
+    <div class="d"><img src="https://image-resizer-cloud-api.akamaized.net/image/C6D49DC4-C4D5-495B-86C5-AA6EC41CE315/0-2x3.jpg?width=305&updatedTime=2023-09-01T12:59:21Z&dt=Web" alt="" class="pics">
+    <p>Masooda</p></div>
+    <div class="d"><img src="https://image-resizer-cloud-api.akamaized.net/image/A2D5FA05-208D-45CC-9394-7AA4BEA8ED8F/0-2x3.jpg?width=305&updatedTime=2023-09-22T13:03:11Z&dt=Web" alt="" class="pics">
+    <p>DJ Tillu</p></div>
+    <div class="d"><img src="https://image-resizer-cloud-api.akamaized.net/image/C95494C7-1FEB-4697-AF56-267BAF635B3A/0-2x3.jpg?width=305&updatedTime=2023-08-18T15:17:31Z&dt=Web" alt="" class="pics">
+    <p>Bheemla Nayak</p></div>
+    <div class="d"><img src="https://image-resizer-cloud-api.akamaized.net/image/FD0ED325-4244-4437-877B-73AB859A1238/0-2x3.jpg?width=305&updatedTime=2023-09-01T12:49:38Z&dt=Web" alt="" class="pics">
+    <p>Krack</p></div>
+    <div class="d"><img src="https://image-resizer-cloud-api.akamaized.net/image/56FEEDB4-250A-4718-B3BF-F04E204BEBE6/0-2x3.jpg?width=305&updatedTime=2023-09-22T12:57:48Z&dt=Web" alt="" class="pics">
+    <p>Das Ka Dhamki</p></div>
+
+
+    <h2> Movies</h2><br>
+    <div class="d"><img src="https://image-resizer-cloud-api.akamaized.net/image/BDB45E67-D4F1-4514-B186-A8C0B4CEBE48/0-2x3.jpg?width=305&updatedTime=2023-08-28T14:08:08Z&dt=Web" alt="" class="pics">
+    <p>Magadheera</p></div>
+    <div class="d"><img src="https://image-resizer-cloud-api.akamaized.net/image/FFA1C59B-7E6C-4255-8847-202A414580B9/0-2x3.jpg?width=305&updatedTime=2023-08-28T14:10:42Z&dt=Web" alt="" class="pics">
+    <p>Khakee</p></div>
+    <div class="d"><img src="https://image-resizer-cloud-api.akamaized.net/image/63EA1B68-C798-4190-B067-BBAEFBDA3652/0-2x3.jpg?width=305&updatedTime=2023-09-01T13:53:34Z&dt=Web" alt="" class="pics">
+    <p>KIKK</p></div>
+    <div class="d"><img src="https://image-resizer-cloud-api.akamaized.net/image/0A6C87A4-B8E7-422F-B16D-88E06A7C7198/0-2x3.jpg?width=305&updatedTime=2023-08-28T14:08:54Z&dt=Web" alt="" class="pics">
+    <p>Jalsa</p></div>
+    <div class="d"><img src="https://image-resizer-cloud-api.akamaized.net/image/453B2F68-246A-4947-818D-2F3152B54BD8/0-2x3.jpg?width=305&updatedTime=2023-09-01T13:12:32Z&dt=Web" alt="" class="pics">
+    <p>Thupaki</p></div>
+    <div class="d"><img src="https://image-resizer-cloud-api.akamaized.net/image/596E8BEF-DD05-4800-BA03-D30D14F40B76/0-2x3.jpg?width=305&updatedTime=2023-08-28T14:06:38Z&dt=Web" alt="" class="pics">
+    <p>Nene Rowdy Ne</p></div>
+    <div class="d"><img src="https://image-resizer-cloud-api.akamaized.net/image/243234D4-360D-44A5-81EA-DA77E7ED7D91/0-2x3.jpg?width=305&updatedTime=2023-08-28T14:09:53Z&dt=Web" alt="" class="pics">
+    <p>Chintakayala Ravi</p></div>
+    <div class="d"><img src="https://image-resizer-cloud-api.akamaized.net/image/00DFAF5E-8FC5-4BFE-9267-FB3299A9F2CB/0-2x3.jpg?width=305&updatedTime=2023-08-28T14:07:04Z&dt=Web" alt="" class="pics">
+    <p>Nagaram</p></div>
+
+
+    <h2>Genres</h2><br>
+    <div class="d"><img class="a" src="https://image-resizer-cloud-api.akamaized.net/image/043D44D4-3207-495C-BE41-3408EF030E2F/3-1x1.jpg?width=450&updatedTime=2023-02-09T07:45:00Z&dt=Web" alt="" >
+    <p class="b">Telugu Drama</p></div>
+    <div class="d"><img class="a" src="https://image-resizer-cloud-api.akamaized.net/image/7F4940AA-9AED-4423-BE07-99444BB2AF8E/3-1x1.jpg?width=450&updatedTime=2023-02-09T07:40:16Z&dt=Web" alt="">
+    <p class="b">Telugu Action</p></div>
+    <div class="d"><img class="a" src="https://image-resizer-cloud-api.akamaized.net/image/EA342151-A5A7-4AF2-8904-BF41E2EDE947/3-1x1.jpg?width=450&updatedTime=2022-08-29T05:36:42Z&dt=Web" alt="" >
+    <p class="b">Telugu Romance</p></div>
+    <div class="d"><img class="a" src="https://image-resizer-cloud-api.akamaized.net/image/8A4D87E9-A64F-4DEE-93AC-70B18DAB200E/3-1x1.jpg?width=450&updatedTime=2023-02-09T07:42:52Z&dt=Web" alt="" >
+    <p class="b">Telugu Comedy</p></div>
+    <div class="d"><img class="a" src="https://image-resizer-cloud-api.akamaized.net/image/980B8405-40B2-46AD-B42B-1D32E2904148/3-1x1.jpg?width=450&updatedTime=2023-02-09T07:43:39Z&dt=Web" alt="" >
+    <p class="b">Telugu Thriller</p></div>
+    <div class="d"><img class="a" src="https://image-resizer-cloud-api.akamaized.net/image/A08999DD-0D95-475A-99FF-63FD0E32C280/3-1x1.jpg?width=450&updatedTime=2023-02-09T07:40:59Z&dt=Web" alt="" >
+    <p class="b">Crime Movies</p></div>
+    <div class="d"><img class="a" src="https://image-resizer-cloud-api.akamaized.net/image/3F7F6586-D3E3-429A-9654-04B74B32DF1B/3-1x1.jpg?width=450&updatedTime=2021-11-01T11:12:16Z&dt=Web" alt="" >
+    <p class="b">Romance Comedy</p></div>
+    <div class="d"><img class="a" src="https://image-resizer-cloud-api.akamaized.net/image/3EECFEB8-172F-4ED8-9C23-E72E49666F4A/3-1x1.jpg?width=450&updatedTime=2022-07-05T07:03:45Z&dt=Web" alt="" >
+    <p class="b">Family Drama</p></div>
+
+    <h2>Actors(A-Z)</h2><br>
+<img src="https://image-resizer-cloud-api.akamaized.net/image/8995C63C-D9F9-4D0D-91E3-5432765F028A/3-1x1.jpg?width=305&updatedTime=2022-08-29T07:07:14Z&dt=Web" alt="" class="z">
+<img src="https://image-resizer-cloud-api.akamaized.net/image/498B3460-145A-4088-A656-3F9D44B4FD91/3-1x1.jpg?width=305&updatedTime=2022-08-29T06:58:55Z&dt=Web" alt="" class="z">
+<img src="https://image-resizer-cloud-api.akamaized.net/image/1C4B91AA-EC73-4BE4-B296-22418E101B71/3-1x1.jpg?width=305&updatedTime=2022-12-08T11:40:16Z&dt=Web" alt="" class="z">
+<img src="https://image-resizer-cloud-api.akamaized.net/image/1404BDD0-2E86-4C65-A999-9F36A5DFC2AE/3-1x1.jpg?width=305&updatedTime=2022-08-29T06:58:05Z&dt=Web" alt="" class="z">
+<img src="https://image-resizer-cloud-api.akamaized.net/image/1580D135-FF22-45C1-B3C8-65CED50EA27F/3-1x1.jpg?width=305&updatedTime=2022-08-29T07:16:52Z&dt=Web" alt="" class="z">
+<img src="https://image-resizer-cloud-api.akamaized.net/image/38F96932-7222-4F30-95ED-C187CD2B7DCF/3-1x1.jpg?width=305&updatedTime=2023-06-05T17:33:34Z&dt=Web" alt="" class="z">
+<img src="https://image-resizer-cloud-api.akamaized.net/image/56B1846D-689A-4089-8CC5-BB4E0189C79F/3-1x1.jpg?width=305&updatedTime=2022-12-08T11:32:49Z&dt=Web" alt="" class="z">
+<img src="https://image-resizer-cloud-api.akamaized.net/image/C0C4B2F0-DB30-478C-87DE-280121FD5C82/3-1x1.jpg?width=305&updatedTime=2022-07-14T10:53:12Z&dt=Web" alt="" class="z">
+<img src="https://image-resizer-cloud-api.akamaized.net/image/C7E49D49-D2E8-498D-B519-AFBA7CB588F8/3-1x1.jpg?width=305&updatedTime=2022-07-28T07:27:25Z&dt=Web" alt="" class="z">
+<br>
+<br>
+<div>
+<h2>Getting started with aha</h2><br>
+<img src="https://image-resizer-cloud-api.akamaized.net/image/3F2C6053-1776-4416-BA15-E8A261077A31/0-16x9.jpg?width=305&updatedTime=2022-07-22T02:11:23Z&dt=Web" alt="" id="x">
+<img src="https://image-resizer-cloud-api.akamaized.net/image/C7408F51-B483-40E6-8827-B5522678DF0B/0-16x9.jpg?width=305&updatedTime=2022-07-22T02:29:53Z&dt=Web" alt="" id="x">
+<img src="https://image-resizer-cloud-api.akamaized.net/image/D301CF20-47B9-461A-94A8-533D950B894D/0-16x9.jpg?width=305&updatedTime=2022-07-22T03:07:39Z&dt=Web" alt="" id="x">
+<img src="https://image-resizer-cloud-api.akamaized.net/image/A1227745-B56C-4327-95CB-A173A310EA07/0-16x9.jpg?width=305&updatedTime=2022-07-22T02:59:47Z&dt=Web" alt="" id="x">
+<img src="https://image-resizer-cloud-api.akamaized.net/image/8E058B57-BE1C-42A6-A02F-B2CC60003B3A/0-16x9.jpg?width=305&updatedTime=2022-07-22T03:07:45Z&dt=Web" alt="" id="x">
+
+
+</body>
+</html>
+  
