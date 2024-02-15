@@ -1,0 +1,201 @@
+
+*{
+    margin: 0px;
+    /* padding: 0; */
+    font-family: sans-serif;
+    
+}
+body{
+    background-color: black;
+    background-size: cover;
+}
+.bar{
+    width: 100%;
+    height: 75px;
+    background-color: rgb(30, 29, 29);
+
+}
+#logo{
+    width: 58px;
+    height: 58px;
+    padding-left: 25px;
+    padding-top: 8px;
+}
+.bar ul{
+    text-align:center;
+    display: inline-flex;
+    position: relative;
+    bottom: 25px;
+
+}
+.bar ul li{
+    list-style-type: none;
+    padding: 20px;
+    color:rgb(223, 219, 219);
+    font-family: sans-serif;
+    font-size: 14px;
+}
+i{
+    position: relative;
+    left: 530px;
+
+
+}
+#lang{
+    width: 25px;
+    height: 25px;
+    position: relative;
+    left: 515px;
+}
+ #subs{
+    width: 150px;
+    height: 42px;
+    background-color: #ff5e00;
+    border-radius: 25px;
+    display: inline-flex;
+    position: relative;
+    left: 495px;
+    bottom: 12px;
+} 
+#s{
+    position: relative;
+    left: 27px;
+    top: 12px;
+   
+    
+}
+#profile{
+    width: 25px;
+    height: 25px;
+    position: relative; 
+    left:   480px;
+    bottom: 7px;
+  
+
+}
+#sign{
+    display: inline;
+    position: absolute;
+    top: 18px;
+    left: 1350px;
+    font-family: sans-serif;
+    
+}
+
+
+.bar ul li:hover{
+    cursor: pointer;
+    color:white;
+
+}
+
+.scroll figure{
+    width: 500%;
+    position: relative;
+    left: 0px;
+    margin: 0px;
+    animation: 10s scroll infinite;
+}
+.scroll figure #pic{
+    width: 20%;
+    float: left;
+    }
+
+.scroll{
+    overflow: hidden;
+}
+
+@keyframes scroll {
+    0%{
+        left:0%;
+    }
+    20%{
+        left: 0%;
+    }
+    25%{
+        left:-100%;
+    }
+    
+    45%{
+        left: -100%;
+    }
+    50%{
+        left: -200%;
+    }
+    70%{
+        left: -200%;
+    }
+    75%{
+        left:-300% ;
+    }
+    95%{
+        left:-300%;
+    }
+    100%{
+        left: -400%;
+        transition: 10s;
+    }
+}
+
+.d{
+    width: 200px;
+    height: 300px;
+    float: left;
+    transition: 2s;
+
+    
+}
+.d:hover{
+    transform: translateY(-20px);
+}
+.pics{
+    width: 170px;
+    height: 250px;  
+    border-radius: 20px;
+    float: left;
+}
+p{
+    color: white;
+    font-size: 17px;
+    /* text-align: center; */
+     /* float: left; */
+    position: relative;
+    left: 20px; 
+}
+h2{
+    color: white;
+}
+.a{
+    width: 170px;
+    height: 170px;
+    border-radius: 20px;
+}
+.b{
+    position: relative;
+    left: 15px;
+    bottom: 40px;
+    font-size: 18px;
+    font-weight: bold;
+    opacity: 0.9;
+    
+}
+.z{
+    width:170px;
+    height: 150px;
+    border-radius: 100%;
+    padding: 5px; 
+    float: left;
+    transition: 1s;
+}
+.z:hover{
+transform: translateY(-20px);
+}
+#x{
+width: 310px;
+height: 200px;
+padding: 5px;
+transition: 1s;
+}
+#x:hover{
+transform: translateY(-20px);
+}
